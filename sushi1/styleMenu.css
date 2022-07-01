@@ -17,8 +17,13 @@ html{
     font-size: 62.5%;
     height: auto;
 }
-.body{
+body{
     font-family: var(--font-noto);
+    width: 360px;
+    height: 100vh;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    margin: 0 auto;
 }
 .header-container{
     display: flex;
@@ -54,8 +59,9 @@ html{
     font-size: var(--md);
     height: 60px;
     width: 182px;
-    text-align: center;
+    text-align: left;
     margin-bottom: 21px;
+    display: block;
 }
 .menu-container div{
     display: flex;
@@ -101,13 +107,14 @@ html{
 
 
 footer{
-    width: 100vw;
+    width: inherit;
     height: 60px;
     display: flex;
+    align-self: flex-end;
+    margin-bottom: 19px;
 }
 
 .carro-compras{
     display: block;
     margin-left: auto;
-    margin-right:46px;
 }
