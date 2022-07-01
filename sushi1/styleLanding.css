@@ -3,9 +3,9 @@
     --rosado-claro: #f2bdd0;
     --aguamarina: #8df2d5;
     --amarillo: #f2d6a2;
-    --sm: 12px;
-    --md: 14px;
-    --lg: 16px;
+    --sm: 1.2rem;
+    --md: 1.4rem;
+    --lg: 5rem;
 }
 *{
     margin: 0;

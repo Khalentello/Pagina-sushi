@@ -1,0 +1,113 @@
+:root{
+    --rosado: #f294b6;
+    --rosado-claro: #f2bdd0;
+    --aguamarina: #8df2d5;
+    --amarillo: #f2d6a2;
+    --sm: 1.2rem;
+    --md: 3.6rem;
+    --lg: 5rem;
+    --font-noto: 'Noto Sans JP', sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+    height: auto;
+}
+.body{
+    font-family: var(--font-noto);
+}
+.header-container{
+    display: flex;
+    gap: 8px;
+    margin: 48px 26px 27px 33px;
+    justify-content: center;
+}
+
+.logo-principal img{
+    object-fit: fill;
+    height: 84px;
+    width: 84px;
+}
+.title-container{
+    width: 209px;
+    height: 90px;
+}
+.title{
+    font-size: 5rem;
+    background-color: var(--aguamarina);
+    font-family: 'Noto Sans JP', sans-serif;
+    text-align: center;
+    color: white;
+    height: inherit;
+    border-radius: 15px;
+    font-weight: 500;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+.menu-title{
+    font-family:var(--font-noto);
+    font-weight: 300;
+    text-decoration: underline;
+    font-size: var(--md);
+    height: 60px;
+    width: 182px;
+    text-align: center;
+    margin-bottom: 21px;
+}
+.menu-container div{
+    display: flex;
+    gap: 43.2px;
+    justify-content: center;
+    margin-bottom: 56.02px;
+}
+.container-snacks,
+.container-sushi,
+.container-bebidas
+{
+    height: 96.98px;
+    width: 96.98px;
+    display: flex;
+    justify-content: center;
+    border-radius: 50%;
+}
+.container-snacks{
+    background-color: var(--rosado-claro);
+}
+.container-sushi{
+    background-color: var(--amarillo);
+}
+.container-bebidas{
+    background-color: var(--rosado);
+}
+
+.menu-logos{
+    display: inline-block;
+    height: 71.89px;
+    width: 71.89px;
+    object-fit: fill;
+    align-self: center;
+}
+.name-menu{
+    font-family:var(--font-noto);
+    font-weight: 300;
+    text-decoration: underline;
+    font-size: var(--md);
+    height: auto;
+    width: 120px;
+}
+
+
+footer{
+    width: 100vw;
+    height: 60px;
+    display: flex;
+}
+
+.carro-compras{
+    display: block;
+    margin-left: auto;
+    margin-right:46px;
+}
