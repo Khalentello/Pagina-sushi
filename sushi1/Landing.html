@@ -7,96 +7,28 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;400;700&display=swap" rel="stylesheet">
-    
     <title>Landing</title>
-    <style>
-        :root{
-            --rosado: #f294b6;
-            --rosado-claro: #f2bdd0;
-            --aguamarina: #8df2d5;
-            --amarillo: #f2d6a2;
-            --sm: 12px;
-            --md: 14px;
-            --lg: 16px;
-        }
-        .body{
-            font-family: 'Noto Sans JP', sans-serif;
-            margin: 0;
-        }
-        .main-page{
-            width: 100%;
-            height: 100vh;
-            display: grid;
-            place-items: center;
-        }
-        .landing {
-            display: grid;
-            place-items: center;
-        }
-        .landing img{
-            object-fit: fill;
-        }
-        .logo{
-            width: 240px;
-            height: 240px;
-            border-radius: 50%;
-            margin-top: 70px;
-            margin-bottom: 80px;
-        }
-        .title{
-            width: 209px;
-            height: 90px;
-            border-radius: 15px;
-            background-color: var(--rosado);
-            font-size: 50px;
-            color: white;
-            font-weight: 500;
-            font-family: sans-serif;
-            margin: 0;
-            line-height: 90px;
-            margin-bottom: 51px;
-            text-align: center;
-        }
-        .redes{
-            display: grid;
-            grid-template-columns: auto ;
-            gap: 7px;
-        }
-        .imagen-redes{
-            width: 50px;
-            height: 50px;
-        }
-        .flecha{
-            display: grid;
-            align-content: center;
-        }
-        .flecha-abajo{
-            width: 52px;
-            height: 42px;
-            position: absolute;
-            bottom: 50px;
-            margin-left: auto;
-            margin-right: auto;
-            display: block;
-            justify-self: center;
-        }
-    </style>
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <div class="main-page">
-        <div class="landing">
-            <img src="https://images.pexels.com/photos/5007345/pexels-photo-5007345.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Ola" class="logo">
+    <main>
+        <picture class="logo-principal">
+            <img src="./Imagenes/SVG/Logo.svg" alt="Logo Principal">
+        </picture>
+        <section class="title-container">
             <h1 class="title">SUSHI +</h1>
-            <div class="Redes">
-                <img src="https://cdn.pixabay.com/photo/2015/05/17/10/51/facebook-770688_960_720.png" alt="Facebook" class="imagen-redes">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/2048px-Instagram_logo_2016.svg.png" alt="Instagram" class="imagen-redes">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/WhatsApp.svg/512px-WhatsApp.svg.png" alt="Whatsapp" class="imagen-redes">
-                <img src="https://www.enriquedans.com/wp-content/uploads/2019/07/TikTok-logo.jpg" alt="Tiktok" class="imagen-redes">   
-            </div>
-        </div>
-        <div class="flecha">
-            <img src="https://cdn-icons-png.flaticon.com/512/626/626013.png" alt="Flecha abajo" class="flecha-abajo" > 
-        </div>
-    </div>
+        </section>
+        <section class="social-icons">
+            <img src="./Imagenes/SVG/facebook.svg" alt="Logo facebook">
+            <img src="./Imagenes/SVG/instagram.svg" alt="Logo instagram">
+            <img src="./Imagenes/SVG/whatsapp.svg" alt="Logo whatsapp">
+            <img src="./Imagenes/SVG/tik_tok.svg" alt="Logo tiktok">
+        </section>
+    </main>
+    <footer>
+        <picture class="flecha-inferior">
+            <img src="./Imagenes/SVG/Back.svg" alt="Flecha abajo">
+        </picture>
+    </footer>
 </body>
 </html>

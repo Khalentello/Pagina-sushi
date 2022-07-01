@@ -1,0 +1,63 @@
+:root{
+    --rosado: #f294b6;
+    --rosado-claro: #f2bdd0;
+    --aguamarina: #8df2d5;
+    --amarillo: #f2d6a2;
+    --sm: 12px;
+    --md: 14px;
+    --lg: 16px;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+    height: auto;
+}
+.body{
+    font-family: 'Noto Sans JP', sans-serif;
+}
+.logo-principal{
+    margin:70px 60px 80px 60px;
+    display: block;
+}
+.logo-principal img{
+    display: block;
+    margin: 0 auto;
+    object-fit: fill;
+}
+.title-container{
+    width: 209px;
+    height: 90px;
+    margin: 0 auto;
+}
+.title{
+    font-size: 5rem;
+    background-color: var(--rosado);
+    font-family: 'Noto Sans JP', sans-serif;
+    text-align: center;
+    color: white;
+    height: inherit;
+    border-radius: 15px;
+    font-weight: 500;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+.social-icons{
+    margin: 51px auto 127px auto;
+    display: flex;
+    justify-content: center;
+    gap: 7px;
+}
+footer{
+    width: 100vw;
+    height: 54px;
+}
+.flecha-inferior img{
+    width: 54px;
+    height: 42px;
+    transform: rotate(-90deg);
+    margin: 0 auto;
+    display: block;
+}
